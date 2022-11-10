@@ -106,7 +106,7 @@ body {
 
   /* Main body text */
   color: var(--nc-tx-2);
-  font-size: 1.03rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
@@ -366,11 +366,6 @@ dt {
   font-weight: bold;
 }
 
-dd::before {
-  /* Add an arrow to data table definitions */
-  content: '→ ';
-}
-
 hr {
   /* Reset the border of the <hr> separator, then set a better line */
   border: 0;
@@ -455,6 +450,7 @@ input {
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box;
+	font-size: 1rem;
 }
 
 img {
